@@ -1,0 +1,18 @@
+
+.orarWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.3rem;
+    text-align: center;
+    background-color: var(--bs-accordion-color);
+    max-width: 60rem;
+    margin: auto;
+}
+
+.orarWrapperGridItem {
+    color: white;
+    background-color: var(--bs-green);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
