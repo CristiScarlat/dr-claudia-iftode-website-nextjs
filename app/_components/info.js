@@ -7,7 +7,7 @@ const Info = () => {
     {label: "Program Naţional Imunizări", href: "https://www.dsptimis.ro/programe-nationale-de-sanatate/program-national-imunizari"}
   ]
   return(
-    <div>
+    <div style={{margin: "auto", maxWidth: "60rem"}}>
       <ListGroup>
         {infoData.map(item => (
           <ListGroup.Item key={item.href} className="text-center" variant="secondary">
