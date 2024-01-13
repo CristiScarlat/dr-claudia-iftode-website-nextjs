@@ -1,12 +1,12 @@
 import {MdLocationOn, MdPhone} from "react-icons/md";
 
-const ContactSection = ({data, style, children}) => {
+const ContactSection = ({data, style, className, children}) => {
   return(
-    <div className="main-content-width" style={style}>
+    <div className={`main - content - width ${className}`}>
       <div
-        className="d-flex justify-content-evenly mb-5 flex-wrap"
+        className="mb-5 w-75 mx-auto"
       >
-        <div style={{minWidth: "200px"}} className="d-flex justify-content-center align-items-center gap-3">
+        <div style={{minWidth: "200px"}} className="d-flex justify-content-between align-items-center gap-3 text-end mb-2">
           <div>
             <MdLocationOn  size="2rem" color="#198754"/>
           </div>
@@ -14,7 +14,7 @@ const ContactSection = ({data, style, children}) => {
             {data?.address?.map(item => <div key={item}>{item}<br/></div>)}
           </div>
         </div>
-        <div style={{minWidth: "200px"}} className="d-flex justify-content-center align-items-center gap-3">
+        <div style={{minWidth: "200px"}} className="d-flex justify-content-between align-items-center gap-3 text-end mb-2">
           <div>
             <MdPhone size="2rem" color="#198754"/>
           </div>

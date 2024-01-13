@@ -1,5 +1,5 @@
 :root {
-  --bg-color-main: #d0d0d0;
+  --bg-color-main: #efecec;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -57,6 +57,10 @@ a {
   text-decoration: none;
 }
 
+hr {
+  box-shadow: 0px 0px 5px 1px #288754;
+}
+
 .text-green {
   color: var(--bs-green)!important;
 }
@@ -65,8 +69,22 @@ a {
   max-width: 60rem;
 }
 
+.vertical-divider {
+  border-right: 1px solid #80808073;
+  margin: 0 2rem;
+}
+
+.offcanvas {
+  max-width: 65%!important;
+}
+
+.label {
+
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
+
