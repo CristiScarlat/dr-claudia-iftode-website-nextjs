@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import {ContactSection, Orar, Programare, DividerWithLabel} from "@/app/_components";
+import {ContactSection, Orar, Programare, DividerWithLabel, Info} from "@/app/_components";
 
 export default function Home() {
   return (
@@ -19,6 +19,10 @@ export default function Home() {
       <DividerWithLabel label="Programare"/>
       <section id="programare">
         <Programare />
+      </section>
+      <DividerWithLabel label="Informații Utile"/>
+      <section id="info">
+        <Info />
       </section>
       <DividerWithLabel label="Contact"/>
       <section id="contact" className="d-flex flex-wrap justify-content-center gap-2">
