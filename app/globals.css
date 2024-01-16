@@ -65,6 +65,15 @@ hr {
   color: var(--bs-green)!important;
 }
 
+main {
+  padding: 1rem;
+}
+
+main section {
+  padding-top: 5rem;
+  margin-top: -5rem;
+}
+
 .main-content-width {
   max-width: 60rem;
 }
@@ -76,10 +85,6 @@ hr {
 
 .offcanvas {
   max-width: 65%!important;
-}
-
-.label {
-
 }
 
 @media (prefers-color-scheme: dark) {

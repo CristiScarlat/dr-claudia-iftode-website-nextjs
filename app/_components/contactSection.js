@@ -1,10 +1,10 @@
 import {MdLocationOn, MdPhone} from "react-icons/md";
 
-const ContactSection = ({data, style, className, children}) => {
+const ContactSection = ({data, style, className="", children}) => {
   return(
-    <div className={`main - content - width ${className}`}>
+    <div className={`main-content-width ${className}`}>
       <div
-        className="mb-5 w-75 mx-auto"
+        className="mb-5 w-50 mx-auto"
       >
         <div style={{minWidth: "200px"}} className="d-flex justify-content-between align-items-center gap-3 text-end mb-2">
           <div>
