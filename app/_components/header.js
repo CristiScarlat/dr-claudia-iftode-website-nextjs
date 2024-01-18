@@ -45,7 +45,7 @@ const OffcanvasHeader = () => {
         </Container>
         <SubHeaderMobile
           href={pathname === "/" ? "/centrudepermanenta" : "/"}
-          label={pathname === "/" ? "Centru de Permanență" : "Cabinetul Medical"}
+          label={pathname === "/" ? "Informații Centru de Permanență" : "Informații Cabinetul Medical"}
         >
           {pathname === "/" ? <FaHandHoldingMedical size="1.5rem" color="white"/> : <FaUserDoctor size="1.5rem" color="white"/>}
         </SubHeaderMobile>
