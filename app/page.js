@@ -2,6 +2,7 @@ import styles from './page.module.css'
 import {ContactSection, Orar, Programare, DividerWithLabel, Info} from "@/app/_components";
 import { FaHandHoldingMedical } from "react-icons/fa6";
 import Link from "next/link";
+import SubHeaderMobile from "@/app/_components/subHeaderMobile";
 export default function Home() {
 
 
@@ -15,7 +16,7 @@ export default function Home() {
         </div>
         <Link
           href="/centrudepermanenta"
-          className="position-absolute bottom-0 end-0 py-2 px-4 m-3 rounded d-flex justify-content-center align-items-center gap-2 text-bg-success text-decoration-none">
+          className="position-absolute bottom-0 end-0 py-2 px-4 m-3 rounded d-none d-md-flex justify-content-center align-items-center gap-2 text-bg-success text-decoration-none">
           <span>Mergi la Centru de Permanență</span>
           <FaHandHoldingMedical size="1.5rem" color="white"/>
         </Link>

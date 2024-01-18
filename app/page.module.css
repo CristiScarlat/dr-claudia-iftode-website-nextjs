@@ -1,5 +1,6 @@
 .homeImage {
   width: 100%;
+  min-height: 373px;
   max-height: 35rem;
   object-fit: cover;
   margin: auto;
