@@ -35,6 +35,7 @@ const OffcanvasHeader = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav.Link className="text-green" href="#home">Home</Nav.Link>
                 <Nav.Link className="text-green" href="#orar">Orar</Nav.Link>
                 <Nav.Link className="text-green" href="#programare">Programare</Nav.Link>
                 <Nav.Link className="text-green" href="#info">Informații Utile</Nav.Link>

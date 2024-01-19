@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <main>
-      <section className="main-content-width m-auto position-relative">
+      <section className="main-content-width mx-auto position-relative" id="home">
         <img src="/images/dermatiq-gallery-24.jpeg" className={styles.homeImage}/>
         <div className={styles.homeImageTitle}>
             <h1>Dr. Claudia Iftode</h1>
@@ -23,11 +23,11 @@ export default function Home() {
       </section>
       <DividerWithLabel label="Orar"/>
       <section  id="orar">
-        <Orar />
+        <Orar type="cabinet"/>
       </section>
       <DividerWithLabel label="Programare"/>
       <section id="programare">
-        <Programare />
+        <Programare  type="cabinet"/>
       </section>
       <DividerWithLabel label="Informații Utile"/>
       <section id="info">
